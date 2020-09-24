@@ -22,15 +22,15 @@
     var CONFIG = {"hostname":"ioptics.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="As the field of nanophotonics continues to become more interdisciplinary, it is essential to be able to convert between different units of energy by memory.  When reading papers, attending talks, havi">
+  <meta name="description" content="As the field of nanophotonics continues to become more interdisciplinary, it is essential to be able to convert between different units of energy by memory.  When reading papers, attending talks, ha">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Energy Unit Conversions">
 <meta property="og:url" content="http://ioptics.top/2020/09/22/hello-world/index.html">
 <meta property="og:site_name" content="Kevin Wu&#39;s Home">
-<meta property="og:description" content="As the field of nanophotonics continues to become more interdisciplinary, it is essential to be able to convert between different units of energy by memory.  When reading papers, attending talks, havi">
+<meta property="og:description" content="As the field of nanophotonics continues to become more interdisciplinary, it is essential to be able to convert between different units of energy by memory.  When reading papers, attending talks, ha">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-09-22T05:31:58.495Z">
-<meta property="article:modified_time" content="2020-09-24T09:13:35.077Z">
+<meta property="article:modified_time" content="2020-09-24T09:29:05.115Z">
 <meta property="article:author" content="Kevin Wu">
 <meta name="twitter:card" content="summary">
 
@@ -199,7 +199,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-09-24 17:13:35" itemprop="dateModified" datetime="2020-09-24T17:13:35+08:00">2020-09-24</time>
+                <time title="修改时间：2020-09-24 17:29:05" itemprop="dateModified" datetime="2020-09-24T17:29:05+08:00">2020-09-24</time>
               </span>
 
           
@@ -220,26 +220,28 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>As the field of nanophotonics continues to become more interdisciplinary, it is essential to be able to convert between different units of energy by memory.  When reading papers, attending talks, having conversations with colleagues, and answering questions in your own presentations, you should always know exactly where a certain measurement lies in the electromagnetic spectrum, regardless of units.</p>
-<p>For quick conversions, enter a value into any of the boxes below, and the remaining units will be calculated automatically and rounded to the fifth decimal place. Further below is a table that gives spectral ranges relevant to photonics.</p>
+        <p>  As the field of nanophotonics continues to become more interdisciplinary, it is essential to be able to convert between different units of energy by memory.  When reading papers, attending talks, having conversations with colleagues, and answering questions in your own presentations, you should always know exactly where a certain measurement lies in the electromagnetic spectrum, regardless of units.</p>
+<p>  For quick conversions, enter a value into any of the boxes below, and the remaining units will be calculated automatically and rounded to the fifth decimal place. Further below is a table that gives spectral ranges relevant to photonics.</p>
 <table>
 <thead>
 <tr>
-<th align="left">排序方法</th>
-<th align="left">平均情况</th>
-<th align="left">最好情况</th>
-<th align="left">最坏情况</th>
-<th align="left">辅助空间</th>
-<th align="left">稳定性</th>
+<th align="left">Range</th>
+<th align="left">Subrange</th>
+<th align="left">Abbreviation</th>
+<th align="left">eV</th>
+<th align="left">nm</th>
+<th align="left">Thz</th>
+<th align="left">fs</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="left">冒泡排序</td>
-<td align="left">O(n²)</td>
-<td align="left">O(nlogn)</td>
-<td align="left">O(n²)</td>
-<td align="left">O(1)</td>
-<td align="left">稳定</td>
+<td align="left">Ultraviolet (UV)</td>
+<td align="left">Extreme UV</td>
+<td align="left">EUV</td>
+<td align="left">1240-12.4</td>
+<td align="left">1-100</td>
+<td align="left">3e5-3e3</td>
+<td align="left">0.00334-0.334</td>
 </tr>
 <tr>
 <td align="left">简单选择</td>
@@ -247,6 +249,7 @@
 <td align="left">O(n²)</td>
 <td align="left">O(n²)</td>
 <td align="left">O(1)</td>
+<td align="left">稳定</td>
 <td align="left">稳定</td>
 </tr>
 <tr>
@@ -256,6 +259,7 @@
 <td align="left">O(n²)</td>
 <td align="left">O(1)</td>
 <td align="left">稳定</td>
+<td align="left">稳定</td>
 </tr>
 <tr>
 <td align="left">希尔排序</td>
@@ -264,6 +268,7 @@
 <td align="left">O(n²)</td>
 <td align="left">O(1)</td>
 <td align="left">不稳定</td>
+<td align="left">稳定</td>
 </tr>
 <tr>
 <td align="left">堆排序</td>
@@ -272,6 +277,7 @@
 <td align="left">O(nlogn)</td>
 <td align="left">O(1)</td>
 <td align="left">不稳定</td>
+<td align="left">稳定</td>
 </tr>
 <tr>
 <td align="left">归并排序</td>
@@ -280,6 +286,7 @@
 <td align="left">O(nlogn)</td>
 <td align="left">O(n)</td>
 <td align="left">不稳定</td>
+<td align="left">稳定</td>
 </tr>
 <tr>
 <td align="left">快速排序</td>
@@ -288,6 +295,7 @@
 <td align="left">O(n²)</td>
 <td align="left">O(nlogn)~O(n)</td>
 <td align="left">不稳定</td>
+<td align="left">稳定</td>
 </tr>
 </tbody></table>
 
@@ -440,7 +448,7 @@
   </div>
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共227字</span>
+  <span class="post-count">博客全站共225字</span>
 </div>
 
 
