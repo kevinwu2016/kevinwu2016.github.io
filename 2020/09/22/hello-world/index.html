@@ -30,7 +30,7 @@
 <meta property="og:description" content="As the field of nanophotonics continues to become more interdisciplinary, it is essential to be able to convert between different units of energy by memory.  When reading papers, attending talks, ha">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-09-22T05:31:58.495Z">
-<meta property="article:modified_time" content="2020-09-25T07:35:59.551Z">
+<meta property="article:modified_time" content="2020-09-25T07:48:34.962Z">
 <meta property="article:author" content="Kevin Wu">
 <meta name="twitter:card" content="summary">
 
@@ -199,7 +199,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-09-25 15:35:59" itemprop="dateModified" datetime="2020-09-25T15:35:59+08:00">2020-09-25</time>
+                <time title="修改时间：2020-09-25 15:48:34" itemprop="dateModified" datetime="2020-09-25T15:48:34+08:00">2020-09-25</time>
               </span>
 
           
@@ -228,7 +228,7 @@
 <th align="left">Range</th>
 <th align="left">Subrange</th>
 <th align="left">Abbreviation</th>
-<th align="left">eV</th>
+<th align="center">eV</th>
 <th align="center">nm</th>
 <th align="center">Thz</th>
 <th align="center">fs</th>
@@ -238,7 +238,7 @@
 <td align="left">Ultraviolet (UV)</td>
 <td align="left">Extreme UV</td>
 <td align="left">EUV</td>
-<td align="left">1240-12.4</td>
+<td align="center">1240-12.4</td>
 <td align="center">1-100</td>
 <td align="center">3e5-3e3</td>
 <td align="center">0.00334-0.334</td>
@@ -247,7 +247,7 @@
 <td align="left"></td>
 <td align="left">Vacuum UV</td>
 <td align="left">VUV, UV-C</td>
-<td align="left">12.4 - 6.53</td>
+<td align="center">12.4 - 6.53</td>
 <td align="center">100 - 190</td>
 <td align="center">100000 - 52600</td>
 <td align="center">0.334 - 0.634</td>
@@ -256,7 +256,7 @@
 <td align="left"></td>
 <td align="left">Deep UV</td>
 <td align="left">DUV, UV-C)</td>
-<td align="left">6.53 - 4.43</td>
+<td align="center">6.53 - 4.43</td>
 <td align="center">190 - 280</td>
 <td align="center">52600 - 35700</td>
 <td align="center">0.634 - 0.934</td>
@@ -265,7 +265,7 @@
 <td align="left"></td>
 <td align="left">Mid UV</td>
 <td align="left">UV-B</td>
-<td align="left">4.43 - 3.94</td>
+<td align="center">4.43 - 3.94</td>
 <td align="center">280 - 315</td>
 <td align="center">35700 - 31700</td>
 <td align="center">0.934 - 1.05</td>
@@ -274,34 +274,133 @@
 <td align="left"></td>
 <td align="left">Near UV</td>
 <td align="left">UV-A</td>
-<td align="left">3.94 - 3.26</td>
+<td align="center">3.94 - 3.26</td>
 <td align="center">315 - 380</td>
 <td align="center">31700 - 26300</td>
 <td align="center">1.05 - 1.27</td>
 </tr>
 <tr>
-<td align="left">堆排序</td>
-<td align="left">O(nlogn)</td>
-<td align="left">O(nlogn)</td>
-<td align="left">O(nlogn)</td>
-<td align="center">O(1)</td>
-<td align="center">不稳定</td>
-<td align="center">稳定</td>
+<td align="left">Visible (Vis)</td>
+<td align="left">Violet</td>
+<td align="left"></td>
+<td align="center">3.26 - 2.85</td>
+<td align="center">380 - 435</td>
+<td align="center">26300 - 23000</td>
+<td align="center">1.27 - 1.45</td>
 </tr>
 <tr>
-<td align="left">归并排序</td>
-<td align="left">O(nlogn)</td>
-<td align="left">O(nlogn)</td>
-<td align="left">O(nlogn)</td>
-<td align="center">O(n)</td>
-<td align="center">不稳定</td>
-<td align="center">稳定</td>
+<td align="left"></td>
+<td align="left">Blue</td>
+<td align="left"></td>
+<td align="center">2.85 - 2.48</td>
+<td align="center">435 - 500</td>
+<td align="center">23000 - 20000</td>
+<td align="center">1.45 - 1.67</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Cyan</td>
+<td align="left"></td>
+<td align="center">2.48 - 2.38</td>
+<td align="center">500 - 520</td>
+<td align="center">20000 - 19200</td>
+<td align="center">600 - 577</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Green</td>
+<td align="left"></td>
+<td align="center">2.38 - 2.19</td>
+<td align="center">520 - 565</td>
+<td align="center">19200 - 17700</td>
+<td align="center">1.73 - 1.88</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Yellow</td>
+<td align="left"></td>
+<td align="center">2.19 - 2.10</td>
+<td align="center">565 - 590</td>
+<td align="center">17700 - 16900</td>
+<td align="center">1.88 - 1.97</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Orange</td>
+<td align="left"></td>
+<td align="center">2.10 - 1.98</td>
+<td align="center">590 - 625</td>
+<td align="center">16900 - 16000</td>
+<td align="center">1.97 - 2.08</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Red</td>
+<td align="left"></td>
+<td align="center">1.98 - 1.59</td>
+<td align="center">625 - 780</td>
+<td align="center">16000 - 12800</td>
+<td align="center">2.08 - 2.60</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
 </tr>
 <tr>
 <td align="left">快速排序</td>
 <td align="left">O(nlogn)</td>
 <td align="left">O(nlogn)</td>
-<td align="left">O(n²)</td>
+<td align="center">O(n²)</td>
 <td align="center">O(nlogn)~O(n)</td>
 <td align="center">不稳定</td>
 <td align="center">稳定</td>
@@ -457,7 +556,7 @@
   </div>
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共238字</span>
+  <span class="post-count">博客全站共296字</span>
 </div>
 
 
