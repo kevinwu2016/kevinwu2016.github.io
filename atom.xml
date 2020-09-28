@@ -6,7 +6,7 @@
   <link href="http://ioptics.top/atom.xml" rel="self"/>
   
   <link href="http://ioptics.top/"/>
-  <updated>2020-09-26T04:27:53.428Z</updated>
+  <updated>2020-09-28T01:53:21.573Z</updated>
   <id>http://ioptics.top/</id>
   
   <author>
@@ -17,205 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>常用网站汇总</title>
-    <link href="http://ioptics.top/2020/09/26/most-used-sites/"/>
-    <id>http://ioptics.top/2020/09/26/most-used-sites/</id>
-    <published>2020-09-26T04:14:53.605Z</published>
-    <updated>2020-09-26T04:27:53.428Z</updated>
-    
-    <content type="html"><![CDATA[<p>常用的网站有：</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;常用的网站有：&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Energy Unit Conversions</title>
     <link href="http://ioptics.top/2020/09/22/hello-world/"/>
     <id>http://ioptics.top/2020/09/22/hello-world/</id>
     <published>2020-09-22T05:31:58.495Z</published>
-    <updated>2020-09-26T04:02:36.616Z</updated>
+    <updated>2020-09-28T01:53:21.573Z</updated>
     
-    <content type="html"><![CDATA[<p>　　As the field of nanophotonics continues to become more interdisciplinary, it is essential to be able to convert between different units of energy by memory.  When reading papers, attending talks, having conversations with colleagues, and answering questions in your own presentations, you should always know exactly where a certain measurement lies in the electromagnetic spectrum, regardless of units.</p><p>　　For quick conversions, enter a value into any of the boxes below, and the remaining units will be calculated automatically and rounded to the fifth decimal place. Further below is a table that gives spectral ranges relevant to photonics.</p><table><thead><tr><th align="left">Range</th><th align="left">Subrange</th><th align="left">Abbreviation</th><th align="center">eV</th><th align="center">nm</th><th align="center">Thz</th><th align="center">fs</th></tr></thead><tbody><tr><td align="left"><strong>Ultraviolet (UV)</strong></td><td align="left">Extreme UV</td><td align="left">EUV</td><td align="center">1240-12.4</td><td align="center">1-100</td><td align="center">3e5-3e3</td><td align="center">0.00334-0.334</td></tr><tr><td align="left"></td><td align="left">Vacuum UV</td><td align="left">VUV, UV-C</td><td align="center">12.4 - 6.53</td><td align="center">100 - 190</td><td align="center">100000 - 52600</td><td align="center">0.334 - 0.634</td></tr><tr><td align="left"></td><td align="left">Deep UV</td><td align="left">DUV, UV-C)</td><td align="center">6.53 - 4.43</td><td align="center">190 - 280</td><td align="center">52600 - 35700</td><td align="center">0.634 - 0.934</td></tr><tr><td align="left"></td><td align="left">Mid UV</td><td align="left">UV-B</td><td align="center">4.43 - 3.94</td><td align="center">280 - 315</td><td align="center">35700 - 31700</td><td align="center">0.934 - 1.05</td></tr><tr><td align="left"></td><td align="left">Near UV</td><td align="left">UV-A</td><td align="center">3.94 - 3.26</td><td align="center">315 - 380</td><td align="center">31700 - 26300</td><td align="center">1.05 - 1.27</td></tr><tr><td align="left"><strong>Visible (Vis)</strong></td><td align="left">Violet</td><td align="left"></td><td align="center">3.26 - 2.85</td><td align="center">380 - 435</td><td align="center">26300 - 23000</td><td align="center">1.27 - 1.45</td></tr><tr><td align="left"></td><td align="left">Blue</td><td align="left"></td><td align="center">2.85 - 2.48</td><td align="center">435 - 500</td><td align="center">23000 - 20000</td><td align="center">1.45 - 1.67</td></tr><tr><td align="left"></td><td align="left">Cyan</td><td align="left"></td><td align="center">2.48 - 2.38</td><td align="center">500 - 520</td><td align="center">20000 - 19200</td><td align="center">600 - 577</td></tr><tr><td align="left"></td><td align="left">Green</td><td align="left"></td><td align="center">2.38 - 2.19</td><td align="center">520 - 565</td><td align="center">19200 - 17700</td><td align="center">1.73 - 1.88</td></tr><tr><td align="left"></td><td align="left">Yellow</td><td align="left"></td><td align="center">2.19 - 2.10</td><td align="center">565 - 590</td><td align="center">17700 - 16900</td><td align="center">1.88 - 1.97</td></tr><tr><td align="left"></td><td align="left">Orange</td><td align="left"></td><td align="center">2.10 - 1.98</td><td align="center">590 - 625</td><td align="center">16900 - 16000</td><td align="center">1.97 - 2.08</td></tr><tr><td align="left"></td><td align="left">Red</td><td align="left"></td><td align="center">1.98 - 1.59</td><td align="center">625 - 780</td><td align="center">16000 - 12800</td><td align="center">2.08 - 2.60</td></tr><tr><td align="left"><strong>Infrared (IR)</strong></td><td align="left">Near Infrared</td><td align="left">NIR, IR-A</td><td align="center">1.58 - 0.886</td><td align="center">780 - 1400</td><td align="center">12800 - 7140</td><td align="center">2.60 - 4.67</td></tr><tr><td align="left"></td><td align="left"></td><td align="left">NIR, IR-B</td><td align="center">0.886 - 0.413</td><td align="center">1400 - 3000</td><td align="center">7140 - 3330</td><td align="center">4.67 - 10.0</td></tr><tr><td align="left"></td><td align="left">Mid Infrared</td><td align="left">MIR, IR-C</td><td align="center">413 - 24.8 meV</td><td align="center">3 - 50 µm</td><td align="center">3330 - 200</td><td align="center">10 - 167</td></tr><tr><td align="left"></td><td align="left">Far Infrared</td><td align="left">FIR, IR-C</td><td align="center">24.8 - 1.24 meV</td><td align="center">50 µm - 1 mm</td><td align="center">200 - 10</td><td align="center">167 - 3340</td></tr><tr><td align="left"><strong>Terahertz (THz)</strong></td><td align="left"></td><td align="left"></td><td align="center">124 - 1.24 meV</td><td align="center">10 µm - 1 mm</td><td align="center">1000 - 10</td><td align="center">33.4 - 3340</td></tr></tbody></table><p><strong>Relevant Formulas:</strong><br>E = hc/λ<br>ν = c/λ<br>ṽ = 1/λ<br>T = 1/ν  </p> <a id="more"></a> <p><strong>Definitions:</strong><br>E = energy (eV)<br>λ = wavelength (m)<br>ṽ = wavenumber (m-1)<br>T = period (s)<br>ν = frequency (s-1 or Hz)<br>h = Planck’s constant = 4.135667516 x 10-15 eV*s<br>c = speed of light = 299792458 m/s</p>]]></content>
+    <content type="html"><![CDATA[<p>　　As the field of nanophotonics continues to become more interdisciplinary, it is essential to be able to convert between different units of energy by memory.  When reading papers, attending talks, having conversations with colleagues, and answering questions in your own presentations, you should always know exactly where a certain measurement lies in the electromagnetic spectrum, regardless of units.</p><p>　　For quick conversions, enter a value into any of the boxes below, and the remaining units will be calculated automatically and rounded to the fifth decimal place. Further below is a table that gives spectral ranges relevant to photonics.</p><table><thead><tr><th align="left">Range</th><th align="left">Subrange</th><th align="left">Abbreviation</th><th align="center">eV</th><th align="center">nm</th><th align="center">Thz</th><th align="center">fs</th></tr></thead><tbody><tr><td align="left"><strong>Ultraviolet (UV)</strong></td><td align="left">Extreme UV</td><td align="left">EUV</td><td align="center">1240-12.4</td><td align="center">1-100</td><td align="center">3e5-3e3</td><td align="center">0.00334-0.334</td></tr><tr><td align="left"></td><td align="left">Vacuum UV</td><td align="left">VUV, UV-C</td><td align="center">12.4 - 6.53</td><td align="center">100 - 190</td><td align="center">100000 - 52600</td><td align="center">0.334 - 0.634</td></tr><tr><td align="left"></td><td align="left">Deep UV</td><td align="left">DUV, UV-C)</td><td align="center">6.53 - 4.43</td><td align="center">190 - 280</td><td align="center">52600 - 35700</td><td align="center">0.634 - 0.934</td></tr><tr><td align="left"></td><td align="left">Mid UV</td><td align="left">UV-B</td><td align="center">4.43 - 3.94</td><td align="center">280 - 315</td><td align="center">35700 - 31700</td><td align="center">0.934 - 1.05</td></tr><tr><td align="left"></td><td align="left">Near UV</td><td align="left">UV-A</td><td align="center">3.94 - 3.26</td><td align="center">315 - 380</td><td align="center">31700 - 26300</td><td align="center">1.05 - 1.27</td></tr><tr><td align="left"><strong>Visible (Vis)</strong></td><td align="left">Violet</td><td align="left"></td><td align="center">3.26 - 2.85</td><td align="center">380 - 435</td><td align="center">26300 - 23000</td><td align="center">1.27 - 1.45</td></tr><tr><td align="left"></td><td align="left">Blue</td><td align="left"></td><td align="center">2.85 - 2.48</td><td align="center">435 - 500</td><td align="center">23000 - 20000</td><td align="center">1.45 - 1.67</td></tr><tr><td align="left"></td><td align="left">Cyan</td><td align="left"></td><td align="center">2.48 - 2.38</td><td align="center">500 - 520</td><td align="center">20000 - 19200</td><td align="center">600 - 577</td></tr><tr><td align="left"></td><td align="left">Green</td><td align="left"></td><td align="center">2.38 - 2.19</td><td align="center">520 - 565</td><td align="center">19200 - 17700</td><td align="center">1.73 - 1.88</td></tr><tr><td align="left"></td><td align="left">Yellow</td><td align="left"></td><td align="center">2.19 - 2.10</td><td align="center">565 - 590</td><td align="center">17700 - 16900</td><td align="center">1.88 - 1.97</td></tr><tr><td align="left"></td><td align="left">Orange</td><td align="left"></td><td align="center">2.10 - 1.98</td><td align="center">590 - 625</td><td align="center">16900 - 16000</td><td align="center">1.97 - 2.08</td></tr><tr><td align="left"></td><td align="left">Red</td><td align="left"></td><td align="center">1.98 - 1.59</td><td align="center">625 - 780</td><td align="center">16000 - 12800</td><td align="center">2.08 - 2.60</td></tr><tr><td align="left"><strong>Infrared (IR)</strong></td><td align="left">Near Infrared</td><td align="left">NIR, IR-A</td><td align="center">1.58 - 0.886</td><td align="center">780 - 1400</td><td align="center">12800 - 7140</td><td align="center">2.60 - 4.67</td></tr><tr><td align="left"></td><td align="left"></td><td align="left">NIR, IR-B</td><td align="center">0.886 - 0.413</td><td align="center">1400 - 3000</td><td align="center">7140 - 3330</td><td align="center">4.67 - 10.0</td></tr><tr><td align="left"></td><td align="left">Mid Infrared</td><td align="left">MIR, IR-C</td><td align="center">413 - 24.8 meV</td><td align="center">3 - 50 µm</td><td align="center">3330 - 200</td><td align="center">10 - 167</td></tr><tr><td align="left"></td><td align="left">Far Infrared</td><td align="left">FIR, IR-C</td><td align="center">24.8 - 1.24 meV</td><td align="center">50 µm - 1 mm</td><td align="center">200 - 10</td><td align="center">167 - 3340</td></tr><tr><td align="left"><strong>Terahertz (THz)</strong></td><td align="left"></td><td align="left"></td><td align="center">124 - 1.24 meV</td><td align="center">10 µm - 1 mm</td><td align="center">1000 - 10</td><td align="center">33.4 - 3340</td></tr></tbody></table><p><strong>Relevant Formulas:</strong>                            <strong>Definitions:</strong><br>E = hc/λ                                          E = energy (eV)<br>ν = c/λ                                           λ = wavelength (m)<br>ṽ = 1/λ                                           ṽ = wavenumber (m-1)<br>T = 1/ν                                           T = period (s)<br>                                                  ν = frequency (s-1 or Hz)<br>                                                  h = Planck’s constant = 4.135667516 x 10-15 eV*s<br>                                                  c = speed of light = 299792458 m/s                                                  </p><p><strong>Useful  Sites</strong></p><p><a href="https://refractiveindex.info/">Refractive Index Database</a></p><p><a href="https://chemandy.com/calculators/skin-effect-calculator.htm">Effective Skin Depth</a></p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;　　As the field of nanophotonics continues to become more interdisciplinary, it is essential to be able to convert between different units of energy by memory.  When reading papers, attending talks, having conversations with colleagues, and answering questions in your own presentations, you should always know exactly where a certain measurement lies in the electromagnetic spectrum, regardless of units.&lt;/p&gt;
-&lt;p&gt;　　For quick conversions, enter a value into any of the boxes below, and the remaining units will be calculated automatically and rounded to the fifth decimal place. Further below is a table that gives spectral ranges relevant to photonics.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;left&quot;&gt;Range&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;Subrange&lt;/th&gt;
-&lt;th align=&quot;left&quot;&gt;Abbreviation&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;eV&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;nm&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;Thz&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;fs&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Ultraviolet (UV)&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Extreme UV&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;EUV&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1240-12.4&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1-100&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;3e5-3e3&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;0.00334-0.334&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Vacuum UV&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;VUV, UV-C&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;12.4 - 6.53&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;100 - 190&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;100000 - 52600&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;0.334 - 0.634&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Deep UV&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;DUV, UV-C)&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;6.53 - 4.43&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;190 - 280&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;52600 - 35700&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;0.634 - 0.934&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Mid UV&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;UV-B&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;4.43 - 3.94&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;280 - 315&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;35700 - 31700&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;0.934 - 1.05&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Near UV&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;UV-A&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;3.94 - 3.26&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;315 - 380&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;31700 - 26300&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1.05 - 1.27&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Visible (Vis)&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Violet&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;3.26 - 2.85&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;380 - 435&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;26300 - 23000&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1.27 - 1.45&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Blue&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;2.85 - 2.48&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;435 - 500&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;23000 - 20000&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1.45 - 1.67&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Cyan&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;2.48 - 2.38&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;500 - 520&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;20000 - 19200&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;600 - 577&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Green&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;2.38 - 2.19&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;520 - 565&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;19200 - 17700&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1.73 - 1.88&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Yellow&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;2.19 - 2.10&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;565 - 590&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;17700 - 16900&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1.88 - 1.97&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Orange&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;2.10 - 1.98&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;590 - 625&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;16900 - 16000&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1.97 - 2.08&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Red&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1.98 - 1.59&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;625 - 780&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;16000 - 12800&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;2.08 - 2.60&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Infrared (IR)&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Near Infrared&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;NIR, IR-A&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1.58 - 0.886&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;780 - 1400&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;12800 - 7140&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;2.60 - 4.67&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;NIR, IR-B&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;0.886 - 0.413&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1400 - 3000&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;7140 - 3330&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;4.67 - 10.0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Mid Infrared&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;MIR, IR-C&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;413 - 24.8 meV&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;3 - 50 µm&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;3330 - 200&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;10 - 167&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;Far Infrared&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;FIR, IR-C&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;24.8 - 1.24 meV&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;50 µm - 1 mm&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;200 - 10&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;167 - 3340&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Terahertz (THz)&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;124 - 1.24 meV&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;10 µm - 1 mm&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;1000 - 10&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;33.4 - 3340&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Relevant Formulas:&lt;/strong&gt;&lt;br&gt;E = hc/λ&lt;br&gt;ν = c/λ&lt;br&gt;ṽ = 1/λ&lt;br&gt;T = 1/ν  &lt;/p&gt;</summary>
+      
+      
+    <summary type="html">&lt;p&gt;　　As the field of nanophotonics continues to become more interdisciplinary, it is essential to be able to convert between different units</summary>
+      
     
     
     
